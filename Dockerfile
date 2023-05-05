@@ -6,4 +6,6 @@ RUN pip install -r requirements.txt
 
 EXPOSE 80
 
-CMD [ "./run.sh" ]
+RUN chmod +x run.sh
+
+ENTRYPOINT [ "bash", "run.sh" ]
