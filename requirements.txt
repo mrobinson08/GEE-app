@@ -1,1 +1,5 @@
+# Baseline dependencies
+jupyterlab
 voila
+
+# Add your additional dependencies here
